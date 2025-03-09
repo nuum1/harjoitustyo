@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #a3a3a3;
+    margin: 0;
+    padding: 0;
+}
+
+
+#timer {
+    background-color: rgb(186, 186, 186);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 250%;
+    height: 35px;
+    border-radius: 25px;
+
+    
+}
+
+.timer-container {
+    background-color:#2d1570;
+    margin-top: 1%;
+    padding-bottom: 50px;
+
+    height: 100%;
+    padding-top: 1%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+h2 {
+   background-color: rgb(186, 186, 186);
+    font-size: 200%;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #a2bcff;
+    padding: 13px;
+    font-size: small;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+    
+}
+
+
+
+
+#start {
+    background-color: rgb(255, 245, 187);
+}
+
+#pause {
+    background-color: rgb(255, 208, 174);
+}
+
+#reset {
+    background-color: rgb(255, 190, 183);
+}
+
+
+
+button:hover {
+    background-color: #91a4d8;
+
+}
+button:active {
+    background-color: rgb(62, 103, 139);
+}
+
+
+#start:hover {
+    background-color: #9a987a;
+
+}
+
+#pause:hover {
+    background-color: rgb(222, 195, 127);
+}
+
+#reset:hover {
+    background-color: rgb(200, 145, 145);
+}
+
+
+
+
+/* RESPONSIIVISUUS */
+@media screen and (max-width: 640px) {
+
+    #timer {
+        padding: 0;
+        margin: 0;
+        font-size: 200%;
+        size: 300px;
+    }
+    h2 {
+        font-size: 200%;
+     }
+ 
+}
+

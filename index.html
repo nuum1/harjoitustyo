@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <h2>EGG TIMER</h2>
+
+        <div class="buttons">
+            <button onclick="setTimer(3)">Runny yolk (6 Min)</button>
+            <button onclick="setTimer(480)">Soft boiled (8 Min)</button>
+            <button onclick="setTimer(600)">Hard boiled (10 Min)</button>
+
+        </div><br>
+       
+
+        <div id="timer">00:00</div> <br>
+        
+
+        <button id="start">START</button>
+        <button id="pause">PAUSE</button>
+        <button id="reset">RESET</button><br>
+        
+
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
